@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+.parent{
+    height: 400px;
+    width: 230px;
+    background-color: rgb(31, 29, 29);
+    border:none;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container{
+    margin-right:auto ;
+    margin-left: auto;
+    display: grid;
+    line-height: 5px;
+}
+
+.profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#text{
+   text-align: center; 
+   color: white;
+   font-family: Helvetica;
+   font-size: 19px;
+   margin-bottom: 7px;
+}
+
+#two{
+    text-align: center;
+    color: yellowgreen;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-family: Helvetica;
+    font-weight: bold;
+    
+
+}
+
+span{
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    padding: 5px;
+    font-family: Helvetica;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    height: 30px;
+    width: 195px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    text-align: center;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
