@@ -76,3 +76,9 @@ button{
     font-weight: bold;
     padding: 10px;
 }
+
+button:hover{
+    background-color: rgb(199, 245, 33);
+    cursor: pointer;
+    color: black;
+}
