@@ -82,3 +82,9 @@ button:hover{
     cursor: pointer;
     color: black;
 }
+
+#ten{
+    text-align: center;
+    color: white;
+    margin-top: 40%;
+}
